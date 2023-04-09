@@ -6,7 +6,7 @@
 
 <p align="center">Credits to <a href="https://github.com/undiabler">@undiabler</a> for providing the basis that I shamelessly took and recolored.</p>
 
-I used it to make my personal theme for my Gruvbox Material desktop.
+<p align="center">I used it to make my personal theme for my Gruvbox Material desktop.</p>
 
 ---
 
