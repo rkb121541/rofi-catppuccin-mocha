@@ -1,9 +1,8 @@
 # Gruvbox Material Rofi theme
 
-<p align="center">A simple Gruvbox Material theme for <a href="https://github.com/davatorium/rofi">Rofi</a> color theme.</p>
+<p align="center">A simple Gruvbox Material <a href="https://github.com/davatorium/rofi">Rofi</a> color theme.</p>
 
-<p align="center">Designed for a fluent and clear workflow.<br>
-Based on the <a href="https://github.com/arcticicestudio/nord">Nord</a> color palette.</p>
+Based on the <a href="https://github.com/sainnhe/gruvbox-material">Gruvbox Material</a> color palette.</p>
 
 ---
 
