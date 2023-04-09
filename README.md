@@ -1,10 +1,10 @@
-# Gruvbox Material Rofi theme
+# <p align="center">Gruvbox Material Rofi theme</p>
 
 <p align="center">A simple Gruvbox Material <a href="https://github.com/davatorium/rofi">Rofi</a> color theme.</p>
 
-Based on the <a href="https://github.com/sainnhe/gruvbox-material">Gruvbox Material</a> color palette.</p>
+<p align="center">Based on the <a href="https://github.com/sainnhe/gruvbox-material">Gruvbox Material</a> color palette.</p>
 
-Credits to <a href="https://github.com/undiabler">@undiabler</a> for providing the basis that a shamelessly took and recolored.
+<p align="center">Credits to <a href="https://github.com/undiabler">@undiabler</a> for providing the basis that I shamelessly took and recolored.</p>
 
 I used it to make my personal theme for my Gruvbox Material desktop.
 ---
