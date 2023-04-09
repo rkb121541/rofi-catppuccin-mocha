@@ -6,7 +6,7 @@ Based on the <a href="https://github.com/sainnhe/gruvbox-material">Gruvbox Mater
 
 ---
 
-<p align="center"><img src="screenshot.jpg"/><blockquote>Font: <a href="https://www.jetbrains.com/lp/mono/">JetBrains Mono</a> 10px.</blockquote></p>
+<p align="center"><img src="screenshot.jpg"/><blockquote>Font: <a href="https://www.jetbrains.com/lp/mono/">JetBrains Mono</a> 12px.</blockquote></p>
 
 ## Getting started
 ### Installation
@@ -15,8 +15,7 @@ Based on the <a href="https://github.com/sainnhe/gruvbox-material">Gruvbox Mater
 2. Add the following lines to your rofi config (`~/.config/rofi/config.rasi`):
 ```
 configuration {
-    font: "Envy Code R 10";
-    line-margin: 10;
+    font: "JetBrains Mono 12";
 
     display-ssh:    "";
     display-run:    "";
