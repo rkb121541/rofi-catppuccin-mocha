@@ -6,7 +6,7 @@ Based on the <a href="https://github.com/sainnhe/gruvbox-material">Gruvbox Mater
 
 ---
 
-<p align="center"><img src="screenshot.jpg"/><blockquote>Font: <a href="https://damieng.com/blog/2008/05/26/envy-code-r-preview-7-coding-font-released">Envy Code R</a> 10px.</blockquote></p>
+<p align="center"><img src="screenshot.jpg"/><blockquote>Font: <a href="https://www.jetbrains.com/lp/mono/">JetBrains Mono</a> 10px.</blockquote></p>
 
 ## Getting started
 ### Installation
