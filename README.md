@@ -7,6 +7,7 @@
 <p align="center">Credits to <a href="https://github.com/undiabler">@undiabler</a> for providing the basis that I shamelessly took and recolored.</p>
 
 I used it to make my personal theme for my Gruvbox Material desktop.
+
 ---
 
 <p align="center"><img src="screenshot.jpg"/><blockquote>Font: <a href="https://www.jetbrains.com/lp/mono/">JetBrains Mono</a> 12px.</blockquote></p>
