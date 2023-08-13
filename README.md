@@ -10,7 +10,7 @@
 
 ---
 
-<p align="center"><img src="screenshot.jpg"/><blockquote>Font: <a href="https://www.jetbrains.com/lp/mono/">JetBrains Mono</a> 12px.</blockquote></p>
+<p align="center"><img src="screenshot.png"/><blockquote>Font: <a href="https://www.jetbrains.com/lp/mono/">JetBrains Mono</a> 12px.</blockquote></p>
 
 ## Getting started
 ### Installation
