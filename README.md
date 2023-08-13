@@ -1,10 +1,6 @@
-# <p align="center">Gruvbox Material Rofi theme</p>
+# Gruvbox Material Rofi theme
 
-<p align="center">A simple Gruvbox Material <a href="https://github.com/davatorium/rofi">Rofi</a> color theme.</p>
-
-<p align="center">Based on the <a href="https://github.com/sainnhe/gruvbox-material">Gruvbox Material</a> color palette.</p>
-
-<p align="center"><img src="screenshot.png"/><blockquote>Font: <a href="https://www.jetbrains.com/lp/mono/">JetBrains Mono</a> 12px.</blockquote></p>
+A simple theme for **[rofi](https://github.com/davatorium/rofi)** based on **[Gruvbox Material](https://github.com/sainnhe/gruvbox-material)** by [@sainnhe](https://github.com/sainnhe).
 
 ## Setup
 
