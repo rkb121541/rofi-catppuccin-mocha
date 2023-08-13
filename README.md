@@ -4,16 +4,9 @@
 
 <p align="center">Based on the <a href="https://github.com/sainnhe/gruvbox-material">Gruvbox Material</a> color palette.</p>
 
-<p align="center">Credits to <a href="https://github.com/undiabler">@undiabler</a> for providing the basis that I shamelessly took and recolored.</p>
-
-<p align="center">I used it to make my personal theme for my Gruvbox Material desktop.</p>
-
----
-
 <p align="center"><img src="screenshot.png"/><blockquote>Font: <a href="https://www.jetbrains.com/lp/mono/">JetBrains Mono</a> 12px.</blockquote></p>
 
-## Getting started
-### Installation
+## Setup
 
 1. Copy <a href="gruvbox-material.rasi">gruvbox-material.rasi</a> file to `~/.config/rofi/gruvbox-material.rasi`
 2. Add the following lines to your rofi config (`~/.config/rofi/config.rasi`):
