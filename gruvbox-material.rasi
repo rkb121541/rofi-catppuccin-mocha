@@ -91,7 +91,7 @@ listview {
     border-radius: 0px 0px 6px 6px;
     border-color: @gruv10;
     border: 0px 1px 1px 1px;
-    background-color: #282828;
+    background-color: @gruv0;
     dynamic: false;
 }
 
@@ -104,25 +104,29 @@ element {
     text-color: #eee0b7;
 }
 
-element.alternate.active {
-    background-color: @yellowdark;
+element.normal.active {
+    background-color: @yellow;
 }
 
-element.alternate.urgent {
+element.normal.urgent {
     background-color: @reddark;
 }
 
 element.selected.normal {
-	background-color: @gruv7;
-	text-color: 282828;
+    background-color: @gruv7;
+    text-color: @gruv0;
 }
 
 element.selected.active {
-    background-color: @yellow;
+    background-color: @yellowdark;
 }
 
 element.selected.urgent {
     background-color: @red;
+}
+
+element.alternate.normal {
+    background-color: @gruv1;
 }
 
 element-text, element-icon {
@@ -130,7 +134,7 @@ element-text, element-icon {
     margin: 0 10 0 0;
     vertical-align: 0.5;
     background-color: inherit;
-    text-color:       inherit;
+    text-color: inherit;
 }
 
 button {
