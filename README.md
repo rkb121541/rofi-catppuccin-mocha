@@ -2,6 +2,8 @@
 
 A simple theme for **[rofi](https://github.com/davatorium/rofi)** based on **[Gruvbox Material](https://github.com/sainnhe/gruvbox-material)** by [@sainnhe](https://github.com/sainnhe).
 
+![](screenshot.png)
+
 ## Setup
 
 1. Copy <a href="gruvbox-material.rasi">gruvbox-material.rasi</a> file to `~/.config/rofi/gruvbox-material.rasi`
