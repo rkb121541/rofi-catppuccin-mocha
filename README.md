@@ -22,12 +22,3 @@ configuration {
 
 @theme "~/.config/rofi/gruvbox-material.rasi"
 ```
-
-## Wider windows
-By enabling the environmental variable `WIDER` like this:
-```
-WIDER=true rofi -show filebrowser
-```
-... you can make the window wider. This is useful for the `filebrowser` mode.
-
-You can adjust the width at the very bottom of `gruvbox-material.rasi`
