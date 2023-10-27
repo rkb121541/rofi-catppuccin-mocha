@@ -10,8 +10,6 @@ A simple theme for **[rofi](https://github.com/davatorium/rofi)** based on **[Gr
 2. Add the following lines to your rofi config (`~/.config/rofi/config.rasi`):
 ```
 configuration {
-    font: "JetBrains Mono 12";
-
     display-ssh:    "";
     display-run:    "";
     display-drun:   "";
