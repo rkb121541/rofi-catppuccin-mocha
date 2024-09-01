@@ -8,34 +8,22 @@
 * {
 	gruv0: #282828;
 	gruv1: #32302f;
-	gruv2: #45403d;
-	gruv3: #5a524c;
 
-	gruv4: #fbf1c7;
-	gruv5: #f4e8be;
 	gruv6: #eee0b7;
 
 	gruv7: #a89984;
-	gruv8: #928374;
 	gruv9: #7c6f64;
-	gruv10: #504945;
-	red: #ea6962;
 
-	orange: #e78a4e;
+	red: #ea6962;
 	yellow: #d8a657;
-	aqua: #89b482;
-	purple: #d3869b;
 
     reddark: #c14a4a;
     yellowdark: #b47109;
 
     foreground:  @gruv9;
-    background-color:  transparent;
+    background-color: transparent;
     
-    highlight: underline bold #eee0b7;
-
     transparent: rgba(46,52,64,0);
-
 }
 
 window {
@@ -53,7 +41,7 @@ window {
 
 mainbox {
     spacing: 0;
-    children: [ inputbar, message, listview ];
+    children: [inputbar, message, listview];
 }
 
 message {
