@@ -1,42 +1,31 @@
 /**
- * Gruvbox rofi theme
- *
- * Color palette imported from https://github.com/sainnhe/gruvbox-material
- *
+ * Gruvbox Material (Medium) theme
+ * Taken from: https://user-images.githubusercontent.com/58662350/213884019-cbcd5f00-5bef-4a37-9139-0570770330b6.png
+ * Repository: https://github.com/hiimsergey/rofi-gruvbox-material
  */
 
 * {
-	gruv0: #282828;
-	gruv1: #32302f;
+    bg0: #282828;
+    bg1: #32302f;
+    grey0: #7c6f64;
+    fg0: #d4be98;
 
-	gruv6: #eee0b7;
+    blue: #7daea3;
+    red: #ea6962;
+    orange: #e78a4e;
+    green: #a9b665;
+    bgStatusline3: #504945;
 
-	gruv7: #a89984;
-	gruv9: #7c6f64;
-
-	red: #ea6962;
-	yellow: #d8a657;
-
-    reddark: #c14a4a;
-    yellowdark: #b47109;
-
-    foreground:  @gruv9;
-    background-color: transparent;
-    
-    transparent: rgba(46,52,64,0);
+    background-color: @bg0;
 }
 
 window {
-    location: center;
-    anchor:   center;
-    border-radius: 10px;
-    height: 560px;
-    width: 600px;
+    height: 600;
+    width: 600;
 
-    background-color: @transparent;
-    spacing: 0;
-    children:  [mainbox];
-    orientation: horizontal;
+    border: 1;
+    border-radius: 10;
+    border-color: @bgStatusline3;
 }
 
 mainbox {
@@ -44,94 +33,83 @@ mainbox {
     children: [inputbar, message, listview];
 }
 
-message {
-    padding: 10px;
-    border:  0px 2px 2px 2px;
-    border-color: @gruv0;
-    background-color: @gruv7;
+inputbar {
+    color: @fg0;
+    padding: 14;
+    background-color: @bg0;
 }
 
-inputbar {
-    color: @gruv6;
-    padding: 14px;
-    background-color: @gruv0;
-    border-color: @gruv0;
+message {
+    padding: 10;
+    background-color: @grey0;
+}
 
-    border: 1px;
-    border-radius: 10px 10px 0px 0px;
+listview {
+    padding: 8;
+    border-radius: 0 0 10 10;
+    border: 2 2 2 2;
+    border-color: @bg0;
+    background-color: @bg0;
+    dynamic: false;
+}
+
+fg0box {
+    text-color: @fg0;
+    background-color: inherit;
+}
+
+error-message {
+    border: 20 20 20 20;
 }
 
 entry, prompt, case-indicator {
-    text-font: inherit;
     text-color: inherit;
 }
 
 prompt {
-    margin: 0px 1em 0em 0em ;
-}
-
-listview {
-    padding: 8px;
-    border-radius: 0px 0px 10px 10px;
-    border: 2px 2px 2px 2px;
-    border-color: @gruv0;
-    background-color: @gruv0;
-    dynamic: false;
+    margin: 0 10 0 0;
 }
 
 element {
-    padding: 5px;
+    padding: 5;
     vertical-align: 0.5;
-    border-radius: 10px;
-    color: @foreground;
-    text-color: @gruv6;
-    background-color: @gruv1;
-}
-
-element.normal.active {
-    background-color: @yellow;
-}
-
-element.normal.urgent {
-    background-color: @reddark;
+    border-radius: 10;
+    background-color: @bg1;
 }
 
 element.selected.normal {
-    background-color: @gruv7;
-    text-color: @gruv0;
-}
-
-element.selected.active {
-    background-color: @yellowdark;
-}
-
-element.selected.urgent {
-    background-color: @red;
+    background-color: @grey0;
 }
 
 element.alternate.normal {
-    background-color: @transparent;
+    background-color: inherit;
+}
+
+element.normal.active, element.alternate.active {
+    background-color: @orange;
+}
+
+element.selected.active {
+    background-color: @green;
+}
+
+element.normal.urgent, element.alternate.urgent {
+    background-color: @red;
+}
+
+element.selected.urgent {
+    background-color: @blue;
 }
 
 element-text, element-icon {
-    size: 3ch;
+    size: 40;
     margin: 0 10 0 0;
     vertical-align: 0.5;
     background-color: inherit;
-    text-color: @gruv6;
+    text-color: @fg0;
 }
 
-button {
-    padding: 6px;
-    color: @foreground;
-    horizontal-align: 0.5;
-
-    border: 2px 0px 2px 2px;
-    border-radius: 10px;
-    border-color: @foreground;
+element-text .active, element-text .urgent {
+    text-color: @bg0;
 }
 
-button.selected.normal {
-    border: 2px 0px 2px 2px;
-    border-color: @foreground;
-}
