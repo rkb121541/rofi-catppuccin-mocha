@@ -53,7 +53,7 @@ listview {
     dynamic: false;
 }
 
-fg0box {
+textbox {
     text-color: @fg0;
     background-color: inherit;
 }
